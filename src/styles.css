@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+body{
+  background: url("./imgs/3d-digital-wave-background-with-flowing-particles-design.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100vw;
+}

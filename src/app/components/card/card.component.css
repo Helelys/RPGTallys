@@ -20,6 +20,16 @@ section {
 
   width: 80%;
   margin: 0 auto;
+
+  opacity: 50%;
+  transition: ease-in-out .5s;
+}
+
+.container:hover {
+  opacity: 100%;
+  transition: ease-in-out .5s;
+
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
 }
 
 .container > picture > img {
@@ -33,6 +43,8 @@ section {
  text-align: center;
  width: 50%;
  margin: auto;
+
+
 }
 
 .textos > h2 {

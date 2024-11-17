@@ -1,0 +1,45 @@
+section {
+  max-width: 100vw;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container{
+  display: flex;
+
+  background-color: rgba(245, 245, 245, 0.534);
+  backdrop-filter: blur(15px);
+
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 0;
+
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container > picture > img {
+  width: 40rem;
+  height: 40rem;
+  object-fit: cover;
+}
+
+.textos {
+ font-family: montserrat;
+ text-align: center;
+ width: 50%;
+ margin: auto;
+}
+
+.textos > h2 {
+  font-size: 5rem;
+}
+
+.texto {
+  font-size: 1.6rem;
+  text-align: justify;
+}
